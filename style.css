@@ -1,8 +1,23 @@
 body {
-    background-color: black;
+    background-color: darkred;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1 rem;
 }
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: white;
 
-
-header {
+    
+}
+h2 {
+    font-size: medium;
+    font-style: italic;
+    text-align: left;
     color: white;
 }
+
+ #Iframe-1 {
+    width: 100vw; height: 50vh; overflow: hidden",
+ }
+
