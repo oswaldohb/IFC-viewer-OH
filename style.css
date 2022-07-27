@@ -1,12 +1,14 @@
 body {
-    background-color: darkred;
+    background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     font-size: 1 rem;
 }
 h1 {
     font-style: italic;
     text-align: center;
-    color: white;
+    color: gray;
+    background-color: alwhitesmoke;
+    border: 1px solid grey;
 
     
 }
@@ -14,7 +16,11 @@ h2 {
     font-size: medium;
     font-style: italic;
     text-align: left;
-    color: white;
+    color: gray;
+    background-color: alwhitesmoke;
+    border: 1px solid grey;
+    width: 25%;
+
 }
 
  #Iframe-1 {
