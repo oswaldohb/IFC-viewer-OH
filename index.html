@@ -11,17 +11,27 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>IFCviewer</title>
+    <title>Viewerit!</title>
   </head>
   <body>
-    <header><h1>IFCviewer</h1></header>
+    <header><h1>Viewerit!</h1></header>
 
     <header><h2>3D BIM Model</h2></header>
 
     <iframe
-      id="Iframe-1"
+      class="iframe-1"
       src="https://ifcjs.github.io/ifcjs-crash-course/exercises/WIV/hello-world/"
       frameborder="0"
     ></iframe>
+
+    <button
+      class="BTN up"
+      onclick="document.getElementById('file-input').click()"
+    >
+      Openit!
+    </button>
+    <input type="file" id="file-input" />
+
+    <button class="BTN down">BIM Maturity</button>
   </body>
 </html>
