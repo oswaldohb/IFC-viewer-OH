@@ -38,6 +38,7 @@ h2 {
     background-color: white;
     border: 1px solid black;
     width: 100vw; height: 50vh;
+    position: fixed;
  }
 
  input {
@@ -52,9 +53,14 @@ h2 {
     border-radius: 5px;
     font-size: 1rem;
     margin: 1rem;
+    position: absolute;
  }
 
 .BTN:hover {
     background-color: white;
     color: grey;
+}
+
+a {
+    text-decoration: none;
 }
